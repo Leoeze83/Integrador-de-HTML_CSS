@@ -227,10 +227,9 @@ footer span {
     margin-right: 20px;
   }
   header .menu {
-    display: block;
+    display: none;
     background-color: rgba(128, 128, 128, 0.329);
     position: relative;
-    left: 40px;
   }
   header .menu ul {
     display: -webkit-box;

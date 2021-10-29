@@ -58,22 +58,35 @@
 
  <!-- Cards -->
  <section>
-  <h3> elegí tu lugar favorito  </h3>
-  <div class="card-container">
+  <h3>  tu lugar favorito  </h3>
+
+  <div class="card-container"> 
+   <!-- Card: Mar y Playa -->
    <div class="card">
-    <img src="./assets/paisajes/mar y playa/sunset-gba0770ae5_1920.jpg" alt="card1">
-    <h4>Mar y Arena</h4>
+   <a href="./mar.html" aria-label="to mar">
+    <img src="./assets/paisajes/mar y playa/sunset-gba0770ae5_1920.jpg" alt="card1" >
+    <h4>Mar y Arena </h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+   </a>
    </div>
+   <!-- Card: Rios -->
    <div class="card">
-    <img src="./assets/paisajes/selva y rios/selva-misionera-1-mainImage-5.jpg" alt="card2">
-    <h4>Ríos </h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+    <a href="./rio.html">
+     <img src="./assets/paisajes/selva y rios/selva-misionera-1-mainImage-5.jpg" alt="card2">
+     <a href="./mar.html"></a>
+     <h4>Ríos </h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+    </a>
+    </div>
+    <!-- Card Montañas -->
+   <div class="card">
+    <a href="./montaña.html">
+     <img src="./assets/paisajes/sierras y montañas/mount-fitzroy-g68610ea17_1920.jpg" alt="card3">
+     <a href="./mar.html"></a>
+     <h4>Sierras y Montañas</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+    </a>
    </div>
-   <div class="card">
-    <img src="./assets/paisajes/sierras y montañas/mount-fitzroy-g68610ea17_1920.jpg" alt="card3">
-    <h4>Sierras y Montañas</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
    </div>
  </section>
 
@@ -81,7 +94,12 @@
   <!-- script de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-</body>
+    
+    <!-- subir al Inicio -->
+    <a class="animate__animated animate__rubberBand" href="#" title="Subir">
+     <i class="fas fa-chevron-up"> 👈</i> 
+    </a>
+   </body>
 <!-- Footer -->
 <footer>
  <a href="./index.html">
@@ -98,10 +116,6 @@
    By &COPY;VaderLoop{Dev} 🇦🇷 for NUCBA 
   </span>
  </footer>
-  
- <a class="animate__animated animate__rubberBand" href="#" title="Subir">
-   <i class="fas fa-chevron-up"> 👈</i> 
-   
    <hr>
 </html>
 

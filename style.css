@@ -204,6 +204,49 @@ h3:after {
   color: black;
 }
 
+.imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5px 0px 20px 0px;
+  padding: 0;
+}
+
+.imagenes img {
+  width: 800px;
+  height: 400px;
+}
+
+.imagenes .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: auto;
+  height: 150px;
+  margin-top: -100px;
+}
+
+.imagenes .carousel-caption h5 {
+  color: black;
+  font-size: 22px;
+}
+
+.imagenes .carousel-caption p {
+  color: black;
+  font-size: 18px;
+}
+
 .formularios {
   width: 100%;
   height: auto;

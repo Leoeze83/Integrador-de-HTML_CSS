@@ -189,7 +189,6 @@ h3 {
     border-radius: 10px;
     width: auto;
     height: 150px;
-    margin-top: -100px;
     h5 {
       color: black;
       font-size: 22px;
@@ -303,6 +302,7 @@ footer {
 //1280px (ok)
 //1024px (ok)
 //768px (ok)
+//480px (ok)
 @media (max-width: 1280px) {
   .portada {
     img {
@@ -388,7 +388,7 @@ footer {
       font-size: 1.5em;
       font-weight: 400;
       top: 105px;
-      right: -165px;
+      right: -95px;
     }
   }
   h3 {
@@ -400,9 +400,17 @@ footer {
     justify-content: center;
     align-items: center;
     .card {
-      width: 50%;
+      width: 90%;
       height: auto;
       margin: 10px;
+    }
+  }
+  section {
+    width: 530px;
+    height: auto;
+    .img {
+      width: 100px;
+      height: auto;
     }
   }
   footer {
@@ -413,10 +421,15 @@ footer {
       border-radius: 13px;
     }
     span {
-      font-size: 0.9em;
+      font-size: 0.7em;
       font-family: "Varela Round", sans-serif;
       color: rgb(54, 70, 3);
       font-weight: 500;
+      margin-left: 3px;
+    }
+    i {
+      width: 15px;
+      margin-left: 10px;
     }
   }
 }

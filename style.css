@@ -234,7 +234,6 @@ h3:after {
   border-radius: 10px;
   width: auto;
   height: 150px;
-  margin-top: -100px;
 }
 
 .imagenes .carousel-caption h5 {
@@ -470,7 +469,7 @@ footer span {
     font-size: 1.5em;
     font-weight: 400;
     top: 105px;
-    right: -165px;
+    right: -95px;
   }
   h3 {
     font-size: 1.5em;
@@ -489,9 +488,17 @@ footer span {
             align-items: center;
   }
   .card-container .card {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin: 10px;
+  }
+  section {
+    width: 530px;
+    height: auto;
+  }
+  section .img {
+    width: 100px;
+    height: auto;
   }
   footer {
     justify-items: stretch;
@@ -502,10 +509,15 @@ footer span {
     border-radius: 13px;
   }
   footer span {
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-family: "Varela Round", sans-serif;
     color: #364603;
     font-weight: 500;
+    margin-left: 3px;
+  }
+  footer i {
+    width: 15px;
+    margin-left: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

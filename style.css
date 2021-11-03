@@ -99,6 +99,10 @@ header nav a {
   font-family: "Varela Round", sans-serif;
 }
 
+header nav a:hover {
+  color: blueviolet;
+}
+
 .portada {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -230,10 +234,12 @@ h3:after {
 }
 
 .imagenes .carousel-caption {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
-  width: auto;
+  width: 400px;
   height: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imagenes .carousel-caption h5 {
@@ -243,7 +249,8 @@ h3:after {
 
 .imagenes .carousel-caption p {
   color: black;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .formularios {
@@ -357,10 +364,19 @@ footer i {
   color: black;
 }
 
-footer span {
+footer i:hover {
+  color: blue;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale3d(2, 2, 2);
+          transform: scale3d(2, 2, 2);
+}
+
+span {
   font-size: 1em;
   font-family: "Varela Round", sans-serif;
-  color: #364603;
+  color: black;
   font-weight: 700;
 }
 

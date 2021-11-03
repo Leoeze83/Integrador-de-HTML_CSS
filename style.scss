@@ -117,6 +117,9 @@ header {
       color: black;
       font-size: medium;
       font-family: "Varela Round", sans-serif;
+      &:hover {
+        color: blueviolet;
+      }
     }
   }
 }
@@ -185,17 +188,20 @@ h3 {
   }
 
   .carousel-caption {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-    width: auto;
+    width: 400px;
     height: 150px;
+    margin-left: auto;
+    margin-right: auto;
     h5 {
       color: black;
       font-size: 22px;
     }
     p {
       color: black;
-      font-size: 18px;
+      font-size: 19px;
+      font-weight: 400;
     }
   }
 }
@@ -273,13 +279,19 @@ footer {
   }
   i {
     color: black;
+    &:hover {
+      color: blue;
+      cursor: pointer;
+      transition: all 0.5s;
+      transform: scale3d(2, 2, 2);
+    }
   }
-  span {
-    font-size: 1em;
-    font-family: "Varela Round", sans-serif;
-    color: rgb(54, 70, 3);
-    font-weight: 700;
-  }
+}
+span {
+  font-size: 1em;
+  font-family: "Varela Round", sans-serif;
+  color: black;
+  font-weight: 700;
 }
 
 // Animaciones

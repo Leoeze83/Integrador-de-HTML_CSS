@@ -493,27 +493,102 @@ span {
       font-family: "Architects Daughter", cursive;
       font-size: 1.2em;
       font-weight: 400;
-      top: 120px;
+      top: 150px;
     }
   }
   .card-container {
-    margin: 5px 2px 5px 2px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     .card {
-      width: 60%;
+      width: 52%;
       height: auto;
       margin: 10px;
+      h4 {
+        font-size: 1.1em;
+      }
+      p {
+        font-size: 0.8em;
+      }
     }
   }
-  section {
-    width: 450px;
-
-    .carousel-item {
+  .imagenes {
+    width: 97%;
+    height: auto;
+    section {
+      width: 85%;
+      height: auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .carousel-caption {
       width: 70%;
       height: auto;
-      .carousel-caption {
+      h5 {
+        font-size: 1em;
+      }
+      p {
+        font-size: 0.7em;
+      }
+    }
+  }
+  .formularios {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    h3 {
+      font-size: 1.2em;
+    }
+
+    .login,
+    .register {
+      display: flex;
+      flex-direction: nowrap;
+      align-items: center;
+      width: 30%;
+      height: auto;
+
+      i {
+        margin-top: 30px;
+        margin-bottom: 2px;
+        font-size: 2em;
+        align-items: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        input {
+          width: 75%;
+          height: auto;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding: 10px;
+          border: 2px solid black;
+          font-family: "Varela Round", sans-serif;
+          font-size: 0.5em;
+          color: black;
+        }
+        button {
+          width: 100%;
+          height: auto;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding: 10px;
+          border: 2px solid black;
+          font-family: "Varela Round", sans-serif;
+          font-size: 0.6em;
+          font-weight: bold;
+          color: black;
+          cursor: pointer;
+        }
       }
     }
   }

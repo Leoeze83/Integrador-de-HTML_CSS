@@ -590,10 +590,9 @@ span {
     font-family: "Architects Daughter", cursive;
     font-size: 1.2em;
     font-weight: 400;
-    top: 120px;
+    top: 150px;
   }
   .card-container {
-    margin: 5px 2px 5px 2px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -606,16 +605,121 @@ span {
             align-items: center;
   }
   .card-container .card {
-    width: 60%;
+    width: 52%;
     height: auto;
     margin: 10px;
   }
-  section {
-    width: 450px;
+  .card-container .card h4 {
+    font-size: 1.1em;
   }
-  section .carousel-item {
+  .card-container .card p {
+    font-size: 0.8em;
+  }
+  .imagenes {
+    width: 97%;
+    height: auto;
+  }
+  .imagenes section {
+    width: 85%;
+    height: auto;
+  }
+  .imagenes img {
+    width: 100%;
+    height: auto;
+  }
+  .imagenes .carousel-caption {
     width: 70%;
     height: auto;
+  }
+  .imagenes .carousel-caption h5 {
+    font-size: 1em;
+  }
+  .imagenes .carousel-caption p {
+    font-size: 0.7em;
+  }
+  .formularios {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formularios h3 {
+    font-size: 1.2em;
+  }
+  .formularios .login,
+  .formularios .register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: nowrap;
+            flex-direction: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30%;
+    height: auto;
+  }
+  .formularios .login i,
+  .formularios .register i {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-size: 2em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formularios .login form,
+  .formularios .register form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .formularios .login form input,
+  .formularios .register form input {
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.5em;
+    color: black;
+  }
+  .formularios .login form button,
+  .formularios .register form button {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=style.css.map */

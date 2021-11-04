@@ -195,7 +195,6 @@ h3:after {
 
 .card-container .card:hover {
   background-color: #cdfecf;
-  border-color: red;
   -webkit-box-shadow: black 5px 7px 10px;
           box-shadow: black 5px 7px 10px;
 }
@@ -534,6 +533,89 @@ span {
   footer i {
     width: 15px;
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: auto;
+  }
+  header .logo {
+    width: 40px;
+    height: auto;
+  }
+  header h1 {
+    font-size: 1em;
+    margin: 0;
+  }
+  header label {
+    display: block;
+    margin-right: 20px;
+  }
+  header .menu {
+    display: none;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: relative;
+  }
+  header .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  header .menu ul a {
+    font-size: 0.7em;
+    margin: 0;
+  }
+  header #btn-menu:checked ~ .menu {
+    display: block;
+  }
+  .portada img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 60px;
+  }
+  .portada h2 {
+    position: relative;
+    font-family: "Architects Daughter", cursive;
+    font-size: 1.2em;
+    font-weight: 400;
+    top: 120px;
+  }
+  .card-container {
+    margin: 5px 2px 5px 2px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-container .card {
+    width: 60%;
+    height: auto;
+    margin: 10px;
+  }
+  section {
+    width: 450px;
+  }
+  section .carousel-item {
+    width: 70%;
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

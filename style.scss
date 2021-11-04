@@ -38,7 +38,6 @@ $quinary-color: #d7efff;
   }
   &:hover {
     background-color: $tertiary-color;
-    border-color: red;
     box-shadow: black 5px 7px 10px;
   }
   a {
@@ -442,6 +441,80 @@ span {
     i {
       width: 15px;
       margin-left: 10px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  header {
+    justify-content: space-between;
+    height: auto;
+    .logo {
+      width: 40px;
+      height: auto;
+    }
+    h1 {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    label {
+      display: block;
+      margin-right: 20px;
+    }
+    .menu {
+      display: none;
+      background-color: rgba(128, 128, 128, 0.329);
+      position: relative;
+      ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        a {
+          font-size: 0.7em;
+          margin: 0;
+        }
+      }
+    }
+    #btn-menu:checked ~ .menu {
+      display: block;
+    }
+  }
+  .portada {
+    img {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      margin-top: 60px;
+    }
+    h2 {
+      position: relative;
+      font-family: "Architects Daughter", cursive;
+      font-size: 1.2em;
+      font-weight: 400;
+      top: 120px;
+    }
+  }
+  .card-container {
+    margin: 5px 2px 5px 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card {
+      width: 60%;
+      height: auto;
+      margin: 10px;
+    }
+  }
+  section {
+    width: 450px;
+
+    .carousel-item {
+      width: 70%;
+      height: auto;
+      .carousel-caption {
+      }
     }
   }
 }

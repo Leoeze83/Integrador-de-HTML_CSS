@@ -456,6 +456,7 @@ span {
     position: relative;
   }
   header .menu ul {
+    padding: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -465,9 +466,17 @@ span {
             flex-direction: column;
     position: absolute;
     right: 20px;
-    top: 20px a;
-    top-font-size: 0.5em;
-    top-margin: 0;
+    top: 20px;
+    background-color: #ffedc4;
+    border-radius: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .menu ul a {
+    font-size: 0.5em;
+    margin: 0;
+    text-align: center;
   }
   header #btn-menu:checked ~ .menu {
     display: block;
@@ -561,6 +570,7 @@ span {
     position: relative;
   }
   header .menu ul {
+    padding: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -571,10 +581,16 @@ span {
     position: absolute;
     right: 20px;
     top: 20px;
+    background-color: #ffedc4;
+    border-radius: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header .menu ul a {
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0;
+    text-align: center;
   }
   header #btn-menu:checked ~ .menu {
     display: block;
@@ -590,7 +606,7 @@ span {
     font-family: "Architects Daughter", cursive;
     font-size: 1.2em;
     font-weight: 400;
-    top: 150px;
+    top: 125px;
   }
   .card-container {
     -webkit-box-orient: vertical;
@@ -670,6 +686,7 @@ span {
             align-items: center;
     width: 30%;
     height: auto;
+    margin-top: 5px;
   }
   .formularios .login i,
   .formularios .register i {
